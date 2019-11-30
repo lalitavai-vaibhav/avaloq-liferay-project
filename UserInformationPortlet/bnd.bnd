@@ -1,0 +1,4 @@
+Bundle-Name: UserInformationPortlet
+Bundle-SymbolicName: com.avaloq.user.information
+Bundle-Version: 1.0.0
+Export-Package: com.avaloq.user.information.constants
