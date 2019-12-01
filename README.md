@@ -51,8 +51,10 @@ It is assumed that this rest point will be accessed by applications outside Life
 If logged in user authorization is requirement then it can be easily implement by adding Authorization Filters to this end point which can check if user is logged in and user has proper roles to access this end point. Further deeper permission checks filters can be applied on access rights for pages.
 
 1) End Point Security Permissions: 
+
 This end point is protected by OAUTH 2.0 authorization. 
 So OAuth 2.0 application is created to provide access to rest service. For testing purpose 'Headless Server profile' authorization type is used. There are many other options available for production as per OAuth2.0 specifications.
+
 Following screenshot shows the configuration of 'AvaloqRestApplication' where client-id and client-secret is generated for authorization.
   
 Getting access:
@@ -82,7 +84,9 @@ curl --header "Authorization: Bearer ee63aac988c144b56a71ef8c866c54f959d4ddddd86
 2) OSGi Significance In 'AvaloqRestPortlet':
 
 'AvaloqRestPortlet' Module is created and deployed as liferay OSGi module.
+
 Liferay OSGi framework takes cares of all modules dependencies and they are automatically managed by container. So this module can be installed,started,updated,stopped and uninstall without stopping running Liferay Portal. OSGi will hide all module classes. OSGi can handle different version of same module.Also Liferay service classes(Interfaces) are available to our module since we declare them in gradle file as dependency modules.
+
 
 e.g. OSGi Configuration file:  bnd.bnd 
 
