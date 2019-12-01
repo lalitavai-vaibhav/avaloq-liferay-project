@@ -1,10 +1,10 @@
 # avaloq-liferay-project
-avaloq-liferay-project
 
 
-@Author: Vaibhav Khopade 
 
-Note: All Avaloq test Assignments are developed using Liferay DXP 7.2 (CE).
+# @Author: Vaibhav Khopade 
+
+# Note: All Avaloq test Assignments are developed using Liferay DXP 7.2 (CE).
 
 Assignment 1:
 
