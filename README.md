@@ -1,10 +1,10 @@
  @Author: Vaibhav Khopade 
 
-Note: All Avaloq test Assignments are developed using Liferay DXP 7.2 (CE).
+**Note: All Avaloq test Assignments are developed using Liferay DXP 7.2 (CE).**
 
 # Assignment 1:
 
-'AvaloqRestPortlet' Module: 
+**'AvaloqRestPortlet' Module:**
 
 This rest portlet liferay osgi module is developed to receive http rest calls which will return page hierarchy of configured Site. This rest call returns with JSON formatted page properties like name,title,id,custom field and list of child pages (sub pages)with their details.
 
@@ -13,13 +13,13 @@ This rest portlet liferay osgi module is developed to receive http rest calls wh
 
 
 
-Steps for Deployment of 'AvaloqRestPortlet' Module:
+**Steps for Deployment of 'AvaloqRestPortlet' Module:**
 
 1) Create a Site from control panel 
 
 2) Copy generated Site Id and Modify 'ConstantsKeys.java' class .Replace value of SITE_GROUP_ID with your generated long group id.
 
-e.g. public static final long SITE_GROUP_ID = 34328l;
+e.g. **public static final long SITE_GROUP_ID = 34328l;**
 
 ![Screenshot of Site Setting:](https://github.com/lalitavai-vaibhav/avaloq-liferay-project/tree/master/screenshots/Site-settings.png)
 
@@ -43,7 +43,7 @@ e.g. public static final long SITE_GROUP_ID = 34328l;
 
 # Assignment 2:
 
-Assumption Made: 
+**Assumption Made:**
 
 It is assumed that this rest point will be accessed by applications outside Liferay DXP. So no logged in user authorization is taken under consideration for the time being.
 
@@ -58,7 +58,7 @@ So OAuth 2.0 application is created to provide access to rest service. For testi
 
 Following screenshot shows the configuration of 'AvaloqRestApplication' where client-id and client-secret is generated for authorization.
   
-Getting access:
+**Getting access:**
 
 1) Client can get access token by curl with client-id and client-secret.
 
@@ -81,12 +81,12 @@ curl --header "Authorization: Bearer ee63aac988c144b56a71ef8c866c54f959d4ddddd86
 
 ## B) OSGi Significance In 'AvaloqRestPortlet':
 
-'AvaloqRestPortlet' Module is created and deployed as liferay OSGi module.
+**'AvaloqRestPortlet' Module is created and deployed as liferay OSGi module.**
 
 Liferay OSGi framework takes cares of all modules dependencies and they are automatically managed by container. So this module can be installed,started,updated,stopped and uninstall without stopping running Liferay Portal. OSGi will hide all module classes. OSGi can handle different version of same module.Also Liferay service classes(Interfaces) are available to our module since we declare them in gradle file as dependency modules.
 
 
-e.g. OSGi Configuration file:  bnd.bnd 
+e.g. OSGi Configuration file:  **bnd.bnd **
 
 Bundle-Name: AvaloqRestPortlet
 
