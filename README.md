@@ -22,6 +22,7 @@ Steps for Deployment of 'AvaloqRestPortlet' Module:
 1) Create a Site from control panel 
 
 2) Copy generated Site Id and Modify 'ConstantsKeys.java' class .Replace value of SITE_GROUP_ID with your generated long group id.
+
 e.g. public static final long SITE_GROUP_ID = 34328l;
 
 ![Screenshot of Site Setting:](https://github.com/lalitavai-vaibhav/avaloq-liferay-project/tree/master/screenshots/Site-settings.png)
