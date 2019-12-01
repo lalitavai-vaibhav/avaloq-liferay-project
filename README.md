@@ -9,7 +9,7 @@
 This rest portlet liferay osgi module is developed to receive http rest calls which will return page hierarchy of configured Site. This rest call returns with JSON formatted page properties like name,title,id,custom field and list of child pages (sub pages)with their details.
 
 
-![screenshot shows the JSON output with site page hierarchy](https://github.com/lalitavai-vaibhav/avaloq-liferay-project/tree/master/screenshots/rest-call-result-page-heirachy.png)
+![Screenshot shows the JSON output with site page hierarchy](https://github.com/lalitavai-vaibhav/avaloq-liferay-project/tree/master/screenshots/rest-call-result-page-heirachy.png)
 
 
 
