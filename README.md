@@ -2,9 +2,9 @@
 
  @Author: Vaibhav Khopade 
 
-# Note: All Avaloq test Assignments are developed using Liferay DXP 7.2 (CE).
+Note: All Avaloq test Assignments are developed using Liferay DXP 7.2 (CE).
 
-Assignment 1:
+# Assignment 1:
 
 'AvaloqRestPortlet' Module: 
 
@@ -43,7 +43,7 @@ e.g. public static final long SITE_GROUP_ID = 34328l;
 
 -------------------------------------------------------------------------------------------
 
-Assignment 2:
+# Assignment 2:
 
 Assumption Made: 
 
@@ -53,7 +53,7 @@ If logged in user authorization is requirement then it can be easily implement b
 
 
 
-A)End Point Security Permissions Concerns: 
+# A)End Point Security Permissions Concerns: 
 
 This end point is protected by OAUTH 2.0 authorization. 
 So OAuth 2.0 application is created to provide access to rest service. For testing purpose 'Headless Server profile' authorization type is used. There are many other options available for production as per OAuth2.0 specifications.
@@ -81,7 +81,7 @@ curl --header "Authorization: Bearer ee63aac988c144b56a71ef8c866c54f959d4ddddd86
 
 -------------------------------------------------------------------------------------------------------------
 
-B) OSGi Significance In 'AvaloqRestPortlet':
+# B) OSGi Significance In 'AvaloqRestPortlet':
 
 'AvaloqRestPortlet' Module is created and deployed as liferay OSGi module.
 
@@ -107,7 +107,7 @@ e.g. PageInformationService.java implements PageInformationInteface.java in expo
 
 -------------------------------------------------------------------------------------------
 
-Assignment 3:
+# Assignment 3:
 
 'UserInformationPortlet': 
 
