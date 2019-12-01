@@ -107,7 +107,7 @@ e.g. PageInformationService.java implements PageInformationInteface.java in expo
 
 # Assignment 3:
 
-'UserInformationPortlet': 
+**'UserInformationPortlet':** 
 
 This portlet module is developed to show user information like roles,userid,username,email and web content titles which user has access.
 Portlet is created as Liferay MVC portlet.
