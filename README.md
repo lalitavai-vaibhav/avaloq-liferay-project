@@ -42,6 +42,8 @@ e.g. public static final long SITE_GROUP_ID = 34328l;
 
 ![Screenshot Of OAuth 2  Application Configuration:](https://github.com/lalitavai-vaibhav/avaloq-liferay-project/tree/master/screenshots/OAuth-Configuration-control-panel.png)
 
+\=================================================================================================\
+
 Assignment 2:
 
 Assumption Made: 
@@ -50,7 +52,9 @@ It is assumed that this rest point will be accessed by applications outside Life
 
 If logged in user authorization is requirement then it can be easily implement by adding Authorization Filters to this end point which can check if user is logged in and user has proper roles to access this end point. Further deeper permission checks filters can be applied on access rights for pages.
 
-1) End Point Security Permissions: 
+-------------------------------------------------------------------------------------------
+
+A)End Point Security Permissions Concerns: 
 
 This end point is protected by OAUTH 2.0 authorization. 
 So OAuth 2.0 application is created to provide access to rest service. For testing purpose 'Headless Server profile' authorization type is used. There are many other options available for production as per OAuth2.0 specifications.
@@ -76,12 +80,9 @@ curl --header "Authorization: Bearer ee63aac988c144b56a71ef8c866c54f959d4ddddd86
 
 ![Screenshot Of Site Page Level:](https://github.com/lalitavai-vaibhav/avaloq-liferay-project/tree/master/screenshots/page-levels.png)
 
+-------------------------------------------------------------------------------------------------------------
 
-. 
-
-
-
-2) OSGi Significance In 'AvaloqRestPortlet':
+B) OSGi Significance In 'AvaloqRestPortlet':
 
 'AvaloqRestPortlet' Module is created and deployed as liferay OSGi module.
 
@@ -104,7 +105,7 @@ Export-Package:com.avaloq.rest.service.interfaces
 
 e.g. PageInformationService.java implements PageInformationInteface.java in exported package   which has Annotation @Component and immediate=true means module is not lazy-loaded and service registry loads it as soon as its deployed.
 
-
+\====================================================================================================================\
 
 Assignment 3:
 
@@ -115,10 +116,7 @@ Portlet is created as Liferay MVC portlet.
 
 Different site members can be created with different roles . Each web content need to set permissions on  user group .
 
-E.g. Following are screenshots of different users with different roles like 'Site Members','Site owner' ,Administrator etc.
-
-
-
+Following are screenshots of different users with different roles like 'Site Members','Site owner' ,Administrator etc.
  
 
 ![1) Screenshot Of Test Test with Site Admin Role:](https://github.com/lalitavai-vaibhav/avaloq-liferay-project/tree/master/screenshots/test-test.png)
