@@ -7,9 +7,11 @@ Note: All Avaloq test Assignments are developed using Liferay DXP 7.2 (CE).
 Assignment 1:
 'AvaloqRestPortlet' Module: 
 This rest portlet liferay osgi module is developed to receive http rest calls which will return page hierarchy of configured Site. This rest call returns with JSON formatted page properties like name,title,id,custom field and list of child pages (sub pages)with their details.
-Following screenshot shows the JSON output with site page hierarchy:
 
-![JSON output with site page hierarchy](https://github.com/lalitavai-vaibhav/avaloq-liferay-project/tree/master/screenshots/rest-call-result-page-heirachy.png)
+
+![screenshot shows the JSON output with site page hierarchy](https://github.com/lalitavai-vaibhav/avaloq-liferay-project/tree/master/screenshots/rest-call-result-page-heirachy.png)
+
+
 
 Steps for Deployment of 'AvaloqRestPortlet' Module:
 1) Create a Site from control panel 
