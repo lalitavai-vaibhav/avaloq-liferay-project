@@ -51,7 +51,7 @@ If logged in user authorization is requirement then it can be easily implement b
 
 
 
-# A)End Point Security Permissions Concerns: 
+## A)End Point Security Permissions Concerns: 
 
 This end point is protected by OAUTH 2.0 authorization. 
 So OAuth 2.0 application is created to provide access to rest service. For testing purpose 'Headless Server profile' authorization type is used. There are many other options available for production as per OAuth2.0 specifications.
@@ -79,7 +79,7 @@ curl --header "Authorization: Bearer ee63aac988c144b56a71ef8c866c54f959d4ddddd86
 
 -------------------------------------------------------------------------------------------------------------
 
-# B) OSGi Significance In 'AvaloqRestPortlet':
+## B) OSGi Significance In 'AvaloqRestPortlet':
 
 'AvaloqRestPortlet' Module is created and deployed as liferay OSGi module.
 
