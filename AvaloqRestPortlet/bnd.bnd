@@ -2,3 +2,4 @@ Bundle-Name: AvaloqRestPortlet
 Bundle-SymbolicName: com.avaloq.rest
 Bundle-Version: 1.0.0
 Liferay-Configuration-Path: /configuration
+Export-Package:com.avaloq.rest.service.interfaces

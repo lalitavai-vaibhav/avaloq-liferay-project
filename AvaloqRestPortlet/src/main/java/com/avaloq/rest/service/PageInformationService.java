@@ -3,6 +3,7 @@ package com.avaloq.rest.service;
 import com.avaloq.rest.constants.ConstantsKeys;
 import com.avaloq.rest.service.entities.PageDetails;
 import com.avaloq.rest.service.entities.Pages;
+import com.avaloq.rest.service.interfaces.PageInformationInterface;
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 import com.liferay.journal.service.JournalArticleLocalService;
@@ -24,8 +25,11 @@ import org.osgi.service.component.annotations.Reference;
 /**
  * @author Vaibhav Khopade
  */
-@Component(immediate = true, service = PageInformationService.class)
-public class PageInformationService {
+@Component(
+		immediate = true, 
+service = PageInformationService.class)
+
+public class PageInformationService implements PageInformationInterface {
 
 	private static final Log LOG = LogFactoryUtil.getLog(PageInformationService.class);
 
@@ -44,6 +48,7 @@ public class PageInformationService {
 	 * @param siteId
 	 * @return JSONObject
 	 */
+	 @Override
 	public JSONObject getSitePages(long siteId) {
 
 		try {
@@ -55,7 +60,7 @@ public class PageInformationService {
 
 			layouts.stream().forEach(lay -> {
 				PageDetails pdetails = new PageDetails();
-				System.out.println("Page:" + lay.getName(new Locale("en")));
+				//System.out.println("Page:" + lay.getName(new Locale("en")));
 
 				pdetails.setName(lay.getName(new Locale("en")));
 				pdetails.setTitle(lay.getTitle(new Locale("en")));
@@ -68,7 +73,7 @@ public class PageInformationService {
 
 					lay.getAllChildren().stream().forEach(sub -> {
 
-						System.out.println("Subpage:" + sub.getName(new Locale("en")));
+						//System.out.println("Subpage:" + sub.getName(new Locale("en")));
 
 						PageDetails pdetails2 = new PageDetails();
 						pdetails2.setName(lay.getName(new Locale("en")));
