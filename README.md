@@ -3,7 +3,6 @@
 **Note: All Avaloq test Assignments are developed using Liferay DXP 7.2 (CE).**
 
 
-
 # Assignment 1:
 
 **'AvaloqRestPortlet' Module:**
@@ -107,7 +106,7 @@ e.g. PageInformationService.java implements PageInformationInteface.java in expo
 
 -------------------------------------------------------------------------------------------
 
-# Assignment 3:
+# Assignment 3:#
 
 **'UserInformationPortlet':** 
 
@@ -132,5 +131,5 @@ Following are screenshots of different users with different roles like 'Site Mem
 -----------------------------------------------------------------------------------
 
 
-#Note:ReadMe.pdf file has all information with screenshots
+# Note:ReadMe.pdf file has all information with screenshots #
 
