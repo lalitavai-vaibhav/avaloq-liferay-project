@@ -2,6 +2,8 @@
 
 **Note: All Avaloq test Assignments are developed using Liferay DXP 7.2 (CE).**
 
+
+
 # Assignment 1:
 
 **'AvaloqRestPortlet' Module:**
@@ -127,4 +129,7 @@ Following are screenshots of different users with different roles like 'Site Mem
 
 
 ![3) Screenshot Of Another user with site content reviewer role :](https://github.com/lalitavai-vaibhav/avaloq-liferay-project/tree/master/screenshots/anandi.png)
+-----------------------------------------------------------------------------------
+
+*Note:ReadMe.pdf file has all information with screenshots
 
