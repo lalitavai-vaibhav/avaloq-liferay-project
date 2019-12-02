@@ -44,7 +44,7 @@ e.g. **public static final long SITE_GROUP_ID = 34328l;**
 
 # Assignment 2:
 
-**Assumption Made:**
+:cyclone: **Assumption Made:** :cyclone:
 
 It is assumed that this rest point will be accessed by applications outside Liferay DXP. So no logged in user authorization is taken under consideration for the time being.
 
