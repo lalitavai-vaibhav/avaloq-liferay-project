@@ -121,13 +121,14 @@ Following are screenshots of different users with different roles like 'Site Mem
 ![1) Screenshot Of Test Test with Site Admin Role:](https://github.com/lalitavai-vaibhav/avaloq-liferay-project/tree/master/screenshots/test-test.png)
 
 
-2) Lalita Markopoulu with site content reviewer role and portal content reviewer. 
+2) Another user with site content reviewer role and portal content reviewer. 
 
 ![ 2) Screenshot Of Another user with site content reviewer role and portal content reviewer](https://github.com/lalitavai-vaibhav/avaloq-liferay-project/tree/master/screenshots/lalita.png)
 
-
+3) Another user with site content reviewer role
 
 ![3) Screenshot Of Another user with site content reviewer role :](https://github.com/lalitavai-vaibhav/avaloq-liferay-project/tree/master/screenshots/anandi.png)
+
 -----------------------------------------------------------------------------------
 
 
