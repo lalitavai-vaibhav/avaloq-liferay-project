@@ -107,7 +107,7 @@ e.g. PageInformationService.java implements PageInformationInteface.java in expo
 
 -------------------------------------------------------------------------------------------
 
-# Assignment 3:#
+# Assignment 3:
 
 **'UserInformationPortlet':** 
 
