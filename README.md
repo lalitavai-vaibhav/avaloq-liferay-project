@@ -132,5 +132,5 @@ Following are screenshots of different users with different roles like 'Site Mem
 -----------------------------------------------------------------------------------
 
 
-# Note:ReadMe.pdf file has all information with screenshots #
+# Note: ReadMe.pdf file has all information with screenshots 
 
