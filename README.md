@@ -131,5 +131,6 @@ Following are screenshots of different users with different roles like 'Site Mem
 ![3) Screenshot Of Another user with site content reviewer role :](https://github.com/lalitavai-vaibhav/avaloq-liferay-project/tree/master/screenshots/anandi.png)
 -----------------------------------------------------------------------------------
 
-*Note:ReadMe.pdf file has all information with screenshots
+
+#Note:ReadMe.pdf file has all information with screenshots
 
