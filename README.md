@@ -22,22 +22,22 @@ This rest portlet liferay osgi module is developed to receive http rest calls wh
 
 e.g. **public static final long SITE_GROUP_ID = 34328l;**
 
-![Screenshot of Site Setting:](https://github.com/lalitavai-vaibhav/avaloq-liferay-project/tree/master/screenshots/Site-settings.png)
+:link: ![Screenshot of Site Setting:](https://github.com/lalitavai-vaibhav/avaloq-liferay-project/tree/master/screenshots/Site-settings.png)
 
 3) Create Custom field on Page with key ' custom-additional-info'. 
 
-![Screenshot of custom-additional-info:](https://github.com/lalitavai-vaibhav/avaloq-liferay-project/tree/master/screenshots/custom-field.png)
+:link: ![Screenshot of custom-additional-info:](https://github.com/lalitavai-vaibhav/avaloq-liferay-project/tree/master/screenshots/custom-field.png)
  
 
 4) Deploy portlet in osgi on Liferay dxp 7.2. 
 
-![Screenshot of GoGo Shell successfully deployment :](https://github.com/lalitavai-vaibhav/avaloq-liferay-project/tree/master/screenshots/gogo-shell.png)
+:link: ![Screenshot of GoGo Shell successfully deployment :](https://github.com/lalitavai-vaibhav/avaloq-liferay-project/tree/master/screenshots/gogo-shell.png)
  
 
 
 5) Create 'AvaloqRestApplication'  from control panel/configuration/ OAuth 2 Administration.
 
-![Screenshot Of OAuth 2  Application Configuration:](https://github.com/lalitavai-vaibhav/avaloq-liferay-project/tree/master/screenshots/OAuth-Configuration-control-panel.png)
+:link: ![Screenshot Of OAuth 2  Application Configuration:](https://github.com/lalitavai-vaibhav/avaloq-liferay-project/tree/master/screenshots/OAuth-Configuration-control-panel.png)
 
 
 -------------------------------------------------------------------------------------------
@@ -63,20 +63,21 @@ Following screenshot shows the configuration of 'AvaloqRestApplication' where cl
 
 1) Client can get access token by curl with client-id and client-secret.
 
-curl http://localhost:8080/o/oauth2/token -d 'grant_type=client_credentials&client_id=id-cdd8daf0-5edf-6f7a-5932-957e78d51a5f&client_secret=secret-5053cd5c-e79b-74f4-2ac7-316cf18b862'
+:link: curl http://localhost:8080/o/oauth2/token -d 'grant_type=client_credentials&client_id=id-cdd8daf0-5edf-6f7a-5932-957e78d51a5f&client_secret=secret-5053cd5c-e79b-74f4-2ac7-316cf18b862'
 
-![Screenshot Of Authentication Token by Curl:](https://github.com/lalitavai-vaibhav/avaloq-liferay-project/tree/master/screenshots/Auth-2-authentication-token.png)
+:link: ![Screenshot Of Authentication Token by Curl:](https://github.com/lalitavai-vaibhav/avaloq-liferay-project/tree/master/screenshots/Auth-2-authentication-token.png)
 
 2) Make a call to end point using generated access_token . 
 e.g. access_token: "ee63aac988c144b56a71ef8c866c54f959d4ddddd86fbd81c279e2aed8fb281"
 Making call to end ' http://localhost:8080/o/avaloq/sitepages':
-curl --header "Authorization: Bearer ee63aac988c144b56a71ef8c866c54f959d4ddddd86fbd81c279e2aed8fb281" http://localhost:8080/o/avaloq/sitepages
+
+:link: curl --header "Authorization: Bearer ee63aac988c144b56a71ef8c866c54f959d4ddddd86fbd81c279e2aed8fb281" http://localhost:8080/o/avaloq/sitepages
 
 
-![Screenshot shows the JSON output with site page hierarchy](https://github.com/lalitavai-vaibhav/avaloq-liferay-project/tree/master/screenshots/rest-call-result-page-heirachy.png)
+:link: ![Screenshot shows the JSON output with site page hierarchy](https://github.com/lalitavai-vaibhav/avaloq-liferay-project/tree/master/screenshots/rest-call-result-page-heirachy.png)
 
 
-![Screenshot Of Site Page Level:](https://github.com/lalitavai-vaibhav/avaloq-liferay-project/tree/master/screenshots/page-levels.png)
+:link: ![Screenshot Of Site Page Level:](https://github.com/lalitavai-vaibhav/avaloq-liferay-project/tree/master/screenshots/page-levels.png)
 
 -------------------------------------------------------------------------------------------------------------
 
@@ -118,16 +119,16 @@ Different site members can be created with different roles . Each web content ne
 Following are screenshots of different users with different roles like 'Site Members','Site owner' ,Administrator etc.
  
 
-![1) Screenshot Of Test Test with Site Admin Role:](https://github.com/lalitavai-vaibhav/avaloq-liferay-project/tree/master/screenshots/test-test.png)
+:link: ![1) Screenshot Of Test Test with Site Admin Role:](https://github.com/lalitavai-vaibhav/avaloq-liferay-project/tree/master/screenshots/test-test.png)
 
 
 2) Another user with site content reviewer role and portal content reviewer. 
 
-![ 2) Screenshot Of Another user with site content reviewer role and portal content reviewer](https://github.com/lalitavai-vaibhav/avaloq-liferay-project/tree/master/screenshots/lalita.png)
+:link: ![ 2) Screenshot Of Another user with site content reviewer role and portal content reviewer](https://github.com/lalitavai-vaibhav/avaloq-liferay-project/tree/master/screenshots/lalita.png)
 
 3) Another user with site content reviewer role
 
-![3) Screenshot Of Another user with site content reviewer role :](https://github.com/lalitavai-vaibhav/avaloq-liferay-project/tree/master/screenshots/anandi.png)
+:link: ![3) Screenshot Of Another user with site content reviewer role :](https://github.com/lalitavai-vaibhav/avaloq-liferay-project/tree/master/screenshots/anandi.png)
 
 -----------------------------------------------------------------------------------
 
